@@ -98,9 +98,6 @@ if __name__ == "__main__":
         temp2=AND(i[0],NEGATE(i[1]))
         H_output.append([temp1,temp2])
         Y_output.append(OR(temp1,temp2)) 
-    # weights,delta_weights=calcHW(x_inputs,H_output,2)
-    # print("Delta Weights:",delta_weights)
-    #print("Weights:",weights)
     finaltouch(x_inputs,H_output,Y_output)
 
 
